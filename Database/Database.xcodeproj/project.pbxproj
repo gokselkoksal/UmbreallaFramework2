@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3B95C420F3959A00AEE184 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3B95BF20F3957300AEE184 /* Commons.framework */; };
 		8F57DAD82017599B00A0EE53 /* Database.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F57DACE2017599B00A0EE53 /* Database.framework */; };
 		8F57DADD2017599B00A0EE53 /* DatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F57DADC2017599B00A0EE53 /* DatabaseTests.swift */; };
 		8F57DADF2017599B00A0EE53 /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F57DAD12017599B00A0EE53 /* Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F57DB3D20175A7900A0EE53 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F57DB3C20175A7900A0EE53 /* DatabaseManager.swift */; };
-		8F57DB4020175AA300A0EE53 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F57DB3F20175AA300A0EE53 /* Commons.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8F3B95BE20F3957300AEE184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3B95B920F3957300AEE184 /* Commons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8F57DAF2201759A700A0EE53;
+			remoteInfo = Commons;
+		};
+		8F3B95C020F3957300AEE184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3B95B920F3957300AEE184 /* Commons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8F57DAFB201759A700A0EE53;
+			remoteInfo = CommonsTests;
+		};
+		8F3B95C220F3958F00AEE184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3B95B920F3957300AEE184 /* Commons.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F57DAF1201759A700A0EE53;
+			remoteInfo = Commons;
+		};
 		8F57DAD92017599B00A0EE53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8F57DAC52017599B00A0EE53 /* Project object */;
@@ -25,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F3B95B920F3957300AEE184 /* Commons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Commons.xcodeproj; path = ../Commons/Commons.xcodeproj; sourceTree = "<group>"; };
 		8F57DACE2017599B00A0EE53 /* Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F57DAD12017599B00A0EE53 /* Database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
 		8F57DAD22017599B00A0EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +54,6 @@
 		8F57DADC2017599B00A0EE53 /* DatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTests.swift; sourceTree = "<group>"; };
 		8F57DADE2017599B00A0EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F57DB3C20175A7900A0EE53 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		8F57DB3F20175AA300A0EE53 /* Commons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commons.framework; path = "../Commons/build/Debug-iphoneos/Commons.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F57DB4020175AA300A0EE53 /* Commons.framework in Frameworks */,
+				8F3B95C420F3959A00AEE184 /* Commons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F3B95BA20F3957300AEE184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B95BF20F3957300AEE184 /* Commons.framework */,
+				8F3B95C120F3957300AEE184 /* CommonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8F57DAC42017599B00A0EE53 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +126,7 @@
 		8F57DB3E20175AA300A0EE53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F57DB3F20175AA300A0EE53 /* Commons.framework */,
+				8F3B95B920F3957300AEE184 /* Commons.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +157,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8F3B95C320F3958F00AEE184 /* PBXTargetDependency */,
 			);
 			name = Database;
 			productName = Database;
@@ -165,12 +196,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = R6D3RTDSCX;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8F57DAD62017599B00A0EE53 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = R6D3RTDSCX;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -184,6 +215,12 @@
 			mainGroup = 8F57DAC42017599B00A0EE53;
 			productRefGroup = 8F57DACF2017599B00A0EE53 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8F3B95BA20F3957300AEE184 /* Products */;
+					ProjectRef = 8F3B95B920F3957300AEE184 /* Commons.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8F57DACD2017599B00A0EE53 /* Database */,
@@ -191,6 +228,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8F3B95BF20F3957300AEE184 /* Commons.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Commons.framework;
+			remoteRef = 8F3B95BE20F3957300AEE184 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F3B95C120F3957300AEE184 /* CommonsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonsTests.xctest;
+			remoteRef = 8F3B95C020F3957300AEE184 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8F57DACC2017599B00A0EE53 /* Resources */ = {
@@ -229,6 +283,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8F3B95C320F3958F00AEE184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Commons;
+			targetProxy = 8F3B95C220F3958F00AEE184 /* PBXContainerItemProxy */;
+		};
 		8F57DADA2017599B00A0EE53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8F57DACD2017599B00A0EE53 /* Database */;
@@ -259,7 +318,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -279,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +372,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -327,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -342,7 +401,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R6D3RTDSCX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -363,7 +421,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R6D3RTDSCX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -424,6 +481,7 @@
 				8F57DAE42017599B00A0EE53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F57DAE52017599B00A0EE53 /* Build configuration list for PBXNativeTarget "DatabaseTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +490,7 @@
 				8F57DAE72017599B00A0EE53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

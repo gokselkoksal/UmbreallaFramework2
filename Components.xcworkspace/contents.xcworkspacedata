@@ -5,10 +5,10 @@
       location = "group:iOSTest/iOSTest.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Database/Database.xcodeproj">
+      location = "group:NetworkAPI/NetworkAPI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Network/Network.xcodeproj">
+      location = "group:Database/Database.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Commons/Commons.xcodeproj">

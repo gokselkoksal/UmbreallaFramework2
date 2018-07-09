@@ -8,8 +8,9 @@
 
 import UIKit
 import Commons
-import Network
+import NetworkAPI
 import Database
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

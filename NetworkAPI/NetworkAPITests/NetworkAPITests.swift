@@ -1,15 +1,15 @@
 //
-//  NetworkTests.swift
-//  NetworkTests
+//  NetworkAPITests.swift
+//  NetworkAPITests
 //
-//  Created by Goksel Koksal on 23/01/2018.
-//  Copyright © 2018 Fleetmatics. All rights reserved.
+//  Created by Goksel Koksal on 09/07/2018.
+//  Copyright © 2018 GK. All rights reserved.
 //
 
 import XCTest
-@testable import Network
+@testable import NetworkAPI
 
-class NetworkTests: XCTestCase {
+class NetworkAPITests: XCTestCase {
     
     override func setUp() {
         super.setUp()
